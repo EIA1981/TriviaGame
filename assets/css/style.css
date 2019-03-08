@@ -1,0 +1,101 @@
+body {
+	background-color: black;
+}
+
+#jumbo1 {
+	background-image: url("../images/PokemonTrivia.png");
+    max-height: 50%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 200px;
+    width: 100%;
+}
+
+
+div.jumbotron.text-center#startGame {
+	background-color: rgba(0, 0, 0, 0.01);
+}
+
+	#startBtn {
+		padding:12px 40px 12px 40px;
+		font-size: 25px;
+		background-color: #6d80d1;
+		border-color: rgb(0, 12, 177);
+		color: rgb(255, 238, 0);
+		font-family: Arial, Helvetica, sans-serif;
+		letter-spacing: 4px;
+	}
+		#startBtn:hover {
+			background-color: rgb(255, 238, 0);
+			color: rgb(0, 12, 177);
+		}
+
+div#gameArea.jumbotron.text-center {
+    background-color: #000;
+}
+
+img.gifImg {
+	width:50%;
+	height:auto;
+}
+
+div#Qs.container {
+	font-family: Arial, Helvetica, sans-serif;
+}
+	div#time {
+		font-size: 25px;
+		color: #def;
+	}
+	div.question {
+		color:#fffb00;
+		font-size: 18px;
+	}
+
+	div.thisChoice {
+		font-size: 16px;
+		color: #def;
+		line-height: 50px;
+	}
+		div.thisChoice:hover {
+			color:rgb(0, 183, 255);
+		}
+div#Ans.container {
+	font-family: Arial, Helvetica, sans-serif;
+}
+	div#text, div#correctAnswer {
+		color: #ffffff;
+		font-size: 18px;
+	}
+	div#text {
+		color: #b7ecf5;
+	}
+	div.gifCap {
+		color:#faf7ed;
+		font-size: 14px;
+	}
+
+div.container#Res {
+	color: lightblue;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+	div#resultText {
+		color: #fcff2f;
+	}
+	button#startOverBtn {
+		padding:12px 40px 12px 40px;
+		font-size: 18px;
+		background-color: #6d80d1;
+		border-color: rgb(0, 12, 177);
+		color: rgb(255, 238, 0);
+		font-family: Arial, Helvetica, sans-serif;
+		letter-spacing: 4px;
+	}
+		button#startOverBtn:hover {
+			background-color: rgb(255, 238, 0);
+		color: rgb(0, 12, 177);
+		border-color: rgb(0, 12, 177);
+		}
+
